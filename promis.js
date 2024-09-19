@@ -15,3 +15,16 @@ function OnSuccess(data){
 
 var a = kushalReadFile();
 a.then(OnSuccess);
+
+
+var d = new Date();
+
+console.log(d.getTime());
+
+let p = new Promise(function(resolve){
+    resolve("Hello");
+})
+
+p.then(function(){
+    console.log(p);
+})

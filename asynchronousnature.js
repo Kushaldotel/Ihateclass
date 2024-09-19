@@ -5,3 +5,5 @@ fs.readFile("test.txt", "utf8", function(err,data){
 })
 
 console.log("This is a message");
+
+// Promises are just a syntactical sugar for callbacks
